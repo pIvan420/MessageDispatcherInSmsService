@@ -1,0 +1,13 @@
+spring.application.name=MessageDispatcherInSmsService
+
+#SMS Aero API
+sms.sms_aero.email=
+sms.sms_aero.api_key=
+sms.sms_aero.username=
+sms.sms_aero.url=https://gate.smsaero.ru/v2/
+sms.sms_aero.url.send=sms/testsend
+
+#Kafka
+spring.kafka.bootstrap-servers=localhost:9092
+spring.kafka.consumer.group-id=sms_aero
+server.port=8000
